@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="EmployerDashboard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmployerLogin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmployerRegistration.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="JobSeekerDashboard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="JobSeekerLogin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="JobSeekerRegistration.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="EmployerDashboard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmployerLogin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmployerRegistration.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="JobSeekerDashboard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="JobSeekerLogin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="JobSeekerRegistration.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
